@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Крутяков Даниил 22ВП2 -->
+<html>
+    <head>
+        <title>Личный кабинет</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <button id="logout-btn">Выход</button>
+        <div class="welcome-text">Добро пожаловать, <span id="login"></span>!</div>
+        <div class="account-details">
+            <div class="caption">Имя:</div>
+            <div id="firstname"></div>
+            <div class="caption">Фамилия:</div>
+            <div id="lastname"></div>
+        </div>
+        <div class="table-wrapper">
+            <table id="applications-table">
+                <caption>Мои заявки</caption>
+                <thead>
+                    <tr>
+                        <th>Номер заявки</th>
+                        <th>Возраст</th>
+                        <th>Город</th>
+                        <th>Направление</th>
+                        <th>Участие</th>
+                        <th>Описание</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="button-wrapper">
+            <button id="apply-btn">Подать заявку</button>
+        </div>
+        <script src="../jQuery.js"></script>
+        <script src="js/javascript.js"></script>
+    </body>
+</html>
